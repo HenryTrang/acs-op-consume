@@ -15,11 +15,19 @@
       <Properties>
         <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="0" BAddV="1000" Type="3" />
         <li Name="MindStateBaseValue" AddP="0" AddV="0" BAddP="0" BAddV="100" Type="3" />
-        <li Name="AbilityLvAddV" AddP="0" AddV="-100" BAddP="0" BAddV="0" Type="4" />
+        <li Name="MaxAge" AddP="0" AddV="0" BAddP="0" BAddV="3000" Type="1" />
+        <li Name="AgeCostSpeed" AddP="0" AddV="0" BAddP="-0.99" BAddV="0" Type="4" />
         <li Name="PotentialOfBasepracticeAddValue" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
         <li Name="NpcFight_ShieldConversionRate" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
         <li Name="NpcFight_ShieldConversionRateAddP" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
         <li Name="VisionRadius" AddP="0" AddV="0" BAddP="2" BAddV="0" Type="4" />
+        <li Name="AbilityLvAddV" AddP="-0.5" AddV="0" BAddP="0" BAddV="0" Type="4" />
+        <li Name="GodPenaltyAddV" AddP="0" AddV="-10000" BAddP="0" BAddV="0" Type="1" />
+        <li Name="ToleranceTMin" AddP="0" AddV="0" BAddP="0" BAddV="-100" Type="3" />
+        <li Name="ToleranceTMax" AddP="0" AddV="0" BAddP="0" BAddV="300" Type="3" />
+        <li Name="ComfyTMin" AddP="0" AddV="0" BAddP="0" BAddV="-300" Type="3" />
+        <li Name="ComfyTMax" AddP="0" AddV="0" BAddP="0" BAddV="900" Type="3" />
+        <li Name="MoveSpeed" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
       </Properties>
     </Modifier>
   </List>
