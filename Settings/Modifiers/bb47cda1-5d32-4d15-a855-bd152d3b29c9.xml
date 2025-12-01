@@ -21,7 +21,7 @@
         <li Name="NpcFight_ShieldConversionRate" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
         <li Name="NpcFight_ShieldConversionRateAddP" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
         <li Name="VisionRadius" AddP="0" AddV="0" BAddP="2" BAddV="0" Type="4" />
-        <li Name="AbilityLvAddV" AddP="0" AddV="-300" BAddP="0" BAddV="0" Type="4" />
+        <li Name="AbilityLvAddV" AddP="0" AddV="-100" BAddP="0" BAddV="0" Type="4" />
         <li Name="GodPenaltyAddV" AddP="0" AddV="-10000" BAddP="0" BAddV="0" Type="1" />
         <li Name="ToleranceTMin" AddP="0" AddV="0" BAddP="0" BAddV="-100" Type="3" />
         <li Name="ToleranceTMax" AddP="0" AddV="0" BAddP="0" BAddV="300" Type="3" />
