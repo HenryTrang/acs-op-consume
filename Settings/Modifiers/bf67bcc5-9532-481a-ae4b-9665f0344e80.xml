@@ -8,7 +8,7 @@
       <Duration>-1</Duration>
       <BaseFive>10,10,10,10,10</BaseFive>
       <Sync>1</Sync>
-      <Display>1</Display>
+      <Display>0</Display>
       <Skills>
         <li Name="Fight" Level="0" LevelOver="5" Type="2" />
         <li Name="Fabao" Level="0" LevelOver="5" Type="2" />
@@ -26,7 +26,7 @@
         <li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
         <li Name="NpcFight_SpellPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
-        <li Name="NpcFight_SpellLingCostAddP" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_SpellLingCostAddP" AddP="0" AddV="0" BAddP="-0.8" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoNum" AddP="0" AddV="0" BAddP="0" BAddV="2" Type="3" />
         <li Name="NpcFight_FightSkillSoul" AddP="0" AddV="0" BAddP="0" BAddV="2" Type="3" />
         <li Name="NpcFight_ZhenEnginePower" AddP="0" AddV="0" BAddP="0" BAddV="20" Type="3" />
