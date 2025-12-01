@@ -21,7 +21,7 @@
           <Fesistance>0</Fesistance>
           <Ling>0</Ling>
           <Modifier>bb47cda1-5d32-4d15-a855-bd152d3b29c9</Modifier>
-          <DiscipleOnly>0</DiscipleOnly>
+          <DiscipleOnly>1</DiscipleOnly>
         </Elixir>
       </Item>
       <CostStuffCount>1</CostStuffCount>
