@@ -19,7 +19,7 @@
         <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoLingRecoverAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
-        <li Name="NpcFight_FabaoMaxLingAddP" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoMaxLingAddP" AddP="-10" AddV="0" BAddP="-0.99" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoRepelDistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoFlySpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
         <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
