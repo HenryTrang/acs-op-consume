@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="9f1667d7-2b15-4abf-8392-e964aea1b6dc" Parent="WanJie_DrugBase">
+      <ThingName>Immortal Qi</ThingName>
+      <Rate>12</Rate>
+      <Desc>A strand of True Immortal Qi. Consuming it will reform the mortal body into a new immortal body.</Desc>
+      <TexPath>res/Sprs/object/object_tianjiezhixi</TexPath>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingCrystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <PracticeNutrition>8000</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>30000</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>bb47cda1-5d32-4d15-a855-bd152d3b29c9</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="bf67bcc5-9532-481a-ae4b-9665f0344e80">
+      <DisplayName>Devil Qi</DisplayName>
+      <Desc>Consuming the primrodial devil Qi vastly increases spiritual might.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>10,10,10,10,10</BaseFive>
+      <Sync>1</Sync>
+      <Display>1</Display>
+      <Skills>
+        <li Name="Fight" Level="0" LevelOver="5" Type="2" />
+        <li Name="Fabao" Level="0" LevelOver="5" Type="2" />
+        <li Name="FightSkill" Level="0" LevelOver="5" Type="2" />
+        <li Name="Barrier" Level="0" LevelOver="5" Type="2" />
+      </Skills>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoLingRecoverAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoMaxLingAddP" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoRepelDistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoFlySpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0" AddV="0" BAddP="0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_SpellPowerAddP" AddP="0" AddV="0" BAddP="1" BAddV="0" Type="4" />
+        <li Name="NpcFight_SpellLingCostAddP" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="NpcFight_FabaoNum" AddP="0" AddV="0" BAddP="0" BAddV="2" Type="3" />
+        <li Name="NpcFight_FightSkillSoul" AddP="0" AddV="0" BAddP="0" BAddV="2" Type="3" />
+        <li Name="NpcFight_ZhenEnginePower" AddP="0" AddV="0" BAddP="0" BAddV="20" Type="3" />
+        <li Name="NpcFight_ZhenKeyPointNum" AddP="0" AddV="0" BAddP="0" BAddV="2" Type="3" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="bb47cda1-5d32-4d15-a855-bd152d3b29c9">
+      <DisplayName>Immortal Qi</DisplayName>
+      <Desc>The mortal body has consumed a strand of Immortal Qi, rebuilding their body and soul. </Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      <BaseFive>10,10,10,10,10</BaseFive>
+      <Sync>1</Sync>
+      <Display>1</Display>
+      <Skills>
+        <li Name="Qi" Level="0" LevelOver="10" Type="2" />
+      </Skills>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="0" AddV="0" BAddP="0" BAddV="1000" Type="3" />
+        <li Name="MindStateBaseValue" AddP="0" AddV="0" BAddP="0" BAddV="50" Type="3" />
+        <li Name="AbilityLvAddV" AddP="0" AddV="0" BAddP="-0.5" BAddV="0" Type="4" />
+        <li Name="PotentialOfBasepracticeAddValue" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
+        <li Name="NpcFight_ShieldConversionRate" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
+        <li Name="NpcFight_ShieldConversionRateAddP" AddP="0" AddV="0" BAddP="0" BAddV="1" Type="3" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

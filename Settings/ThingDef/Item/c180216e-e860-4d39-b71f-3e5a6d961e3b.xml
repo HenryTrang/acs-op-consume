@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="c180216e-e860-4d39-b71f-3e5a6d961e3b" Parent="WanJie_DrugBase">
+      <ThingName>Primordial Devil's Soul</ThingName>
+      <Rate>12</Rate>
+      <Desc>A soul of a long deadl primordial devil. It's powers remain. Thanks to the devil being long dead, the frenizied devil energies has long subsided. Consuming this will greatly enhance power.</Desc>
+      <TexPath>res/Sprs/object/object_tianjiezhixi</TexPath>
+      <Color>000000</Color>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingCrystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <PracticeNutrition>8000</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>bf67bcc5-9532-481a-ae4b-9665f0344e80</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>000000</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>
