@@ -5,7 +5,7 @@
       <DisplayName>Invincible</DisplayName>
       <Desc>Posessed by an Immortal Godking from the realms above, Qi flourishes from the body. </Desc>
       <MaxStack>1</MaxStack>
-      <Duration>1</Duration>
+      <Duration>300</Duration>
       <BaseFive>5,5,5,5,5</BaseFive>
       <Sync>1</Sync>
       <Display>1</Display>
