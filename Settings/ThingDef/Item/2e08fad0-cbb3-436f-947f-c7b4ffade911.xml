@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="2e08fad0-cbb3-436f-947f-c7b4ffade911" Parent="WanJie_DrugBase">
+      <ThingName>Godking's Spirit</ThingName>
+      <Rate>12</Rate>
+      <Desc>A soul of an Immortal Godking. Consume to be possessed by the Immortal Godking, temporarily becoming invincible.</Desc>
+      <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
+      <Item Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingCrystal" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>32e746dc-dcfc-44f0-a941-d05660119349</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MaterialWorkPlace</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>
